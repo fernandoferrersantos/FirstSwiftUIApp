@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CC03DD70297E8F1B008D3D19 /* FirstSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC03DD6F297E8F1B008D3D19 /* FirstSwiftUIAppApp.swift */; };
-		CC03DD72297E8F1B008D3D19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC03DD71297E8F1B008D3D19 /* ContentView.swift */; };
+		CC03DD72297E8F1B008D3D19 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC03DD71297E8F1B008D3D19 /* MovieView.swift */; };
 		CC03DD74297E8F1F008D3D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC03DD73297E8F1F008D3D19 /* Assets.xcassets */; };
 		CC03DD77297E8F1F008D3D19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC03DD76297E8F1F008D3D19 /* Preview Assets.xcassets */; };
+		CCD1A65229800D39004787DF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1A65129800D39004787DF /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC03DD6C297E8F1B008D3D19 /* FirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC03DD6F297E8F1B008D3D19 /* FirstSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwiftUIAppApp.swift; sourceTree = "<group>"; };
-		CC03DD71297E8F1B008D3D19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC03DD71297E8F1B008D3D19 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
 		CC03DD73297E8F1F008D3D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC03DD76297E8F1F008D3D19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCD1A65129800D39004787DF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				CC03DD6F297E8F1B008D3D19 /* FirstSwiftUIAppApp.swift */,
-				CC03DD71297E8F1B008D3D19 /* ContentView.swift */,
+				CC03DD71297E8F1B008D3D19 /* MovieView.swift */,
+				CCD1A65129800D39004787DF /* Movie.swift */,
 				CC03DD73297E8F1F008D3D19 /* Assets.xcassets */,
 				CC03DD75297E8F1F008D3D19 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC03DD72297E8F1B008D3D19 /* ContentView.swift in Sources */,
+				CC03DD72297E8F1B008D3D19 /* MovieView.swift in Sources */,
 				CC03DD70297E8F1B008D3D19 /* FirstSwiftUIAppApp.swift in Sources */,
+				CCD1A65229800D39004787DF /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
