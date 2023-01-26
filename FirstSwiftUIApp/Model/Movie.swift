@@ -7,13 +7,19 @@
 
 import Foundation
 
-struct Movie: Identifiable {
+struct MovieResponse: Decodable {
+    let results: [Movie]
+}
+
+struct Movie: Identifiable, Decodable {
     let id: Int
     let title: String
     let overview: String
     let posterPath: String
     var posterURL: URL? {
-        URL(string: "https://image.tmdb.org/t/p/w400/\(posterPath)")
+        let url = URL(string: "https://image.tmdb.org/t/p/w400/\(posterPath)")
+        assert(url != nil)
+        return url
     }
 }
 
