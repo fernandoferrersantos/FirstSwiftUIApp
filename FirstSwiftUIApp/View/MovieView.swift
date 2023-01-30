@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MovieView: View {
+struct MoviesView: View {
     
     @State var movies: [Movie] = []
     
@@ -46,6 +46,6 @@ struct MovieView: View {
 
 struct MovieView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieView()
+        MoviesView()
     }
 }
