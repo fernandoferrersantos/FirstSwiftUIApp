@@ -14,6 +14,10 @@
 		CCADCC312982CED100B204BF /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADCC302982CED100B204BF /* MoviesViewModel.swift */; };
 		CCD1A65229800D39004787DF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1A65129800D39004787DF /* Movie.swift */; };
 		CCD8EC9629819881000B41E0 /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD8EC9529819881000B41E0 /* MoviesService.swift */; };
+		CCDF358D29886F2900362979 /* CastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF358C29886F2900362979 /* CastService.swift */; };
+		CCDF358F29886F3800362979 /* MovieCastMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF358E29886F3800362979 /* MovieCastMember.swift */; };
+		CCDF35912988700D00362979 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF35902988700D00362979 /* Secret.swift */; };
+		CCDF35932988714800362979 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF35922988714800362979 /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		CCADCC302982CED100B204BF /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 		CCD1A65129800D39004787DF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		CCD8EC9529819881000B41E0 /* MoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
+		CCDF358C29886F2900362979 /* CastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastService.swift; sourceTree = "<group>"; };
+		CCDF358E29886F3800362979 /* MovieCastMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCastMember.swift; sourceTree = "<group>"; };
+		CCDF35902988700D00362979 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		CCDF35922988714800362979 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				CC03DD6F297E8F1B008D3D19 /* FirstSwiftUIAppApp.swift */,
+				CCDF35902988700D00362979 /* Secret.swift */,
 				CCD8EC942981977E000B41E0 /* Service */,
 				CCD8EC922981974C000B41E0 /* View */,
 				CCD8EC9329819758000B41E0 /* Model */,
@@ -88,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				CC03DD71297E8F1B008D3D19 /* MoviesView.swift */,
+				CCDF35922988714800362979 /* MovieDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -96,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				CCD1A65129800D39004787DF /* Movie.swift */,
+				CCDF358E29886F3800362979 /* MovieCastMember.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				CCD8EC9529819881000B41E0 /* MoviesService.swift */,
+				CCDF358C29886F2900362979 /* CastService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -178,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCDF358D29886F2900362979 /* CastService.swift in Sources */,
 				CC03DD72297E8F1B008D3D19 /* MoviesView.swift in Sources */,
 				CC03DD70297E8F1B008D3D19 /* FirstSwiftUIAppApp.swift in Sources */,
+				CCDF35932988714800362979 /* MovieDetailView.swift in Sources */,
 				CCD8EC9629819881000B41E0 /* MoviesService.swift in Sources */,
+				CCDF358F29886F3800362979 /* MovieCastMember.swift in Sources */,
+				CCDF35912988700D00362979 /* Secret.swift in Sources */,
 				CCD1A65229800D39004787DF /* Movie.swift in Sources */,
 				CCADCC312982CED100B204BF /* MoviesViewModel.swift in Sources */,
 			);
